@@ -108,7 +108,7 @@ $(function () {
         nextArrow: '<img class="slider-arrows slider-arrows__right" src="images/arrow-right.svg"></img>',
     });
 
-    $('<div class="quantity-nav"><div class="quantity-button quantity-up"><img src="../images/plus.png" alt=""></div><div class="quantity-button quantity-down"><img src="../images/minus.png" alt=""></div></div>').insertAfter('.quantity input');
+    $('<div class="quantity-nav"><div class="quantity-button quantity-up"><img src="images/plus.png" alt=""></div><div class="quantity-button quantity-down"><img src="images/minus.png" alt=""></div></div>').insertAfter('.quantity input');
     $('.quantity').each(function () {
         var spinner = $(this),
             input = spinner.find('input[type="number"]'),
